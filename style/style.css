@@ -71,6 +71,7 @@ body {
 #navbar li{
     list-style: none;
     padding: 0 20px;
+    position: relative;
 }
 
 #navbar li a{
@@ -81,12 +82,13 @@ body {
     transition: 0.3s ease;
 }
 
-#nabar li a:hover
-#nabar li a.active {
+#navbar li a:hover,
+#navbar li a.active {
     color: #465b52;
 }
 
-#nabar li a.active::after {
+#navbar li a.active::after,
+navbar li a:hover::after {
     content: "";
     width: 30%;
     height: 2px;
