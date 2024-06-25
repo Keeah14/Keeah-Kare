@@ -92,7 +92,7 @@ navbar li a:hover::after {
     content: "";
     width: 30%;
     height: 2px;
-    background: #465b52;
+    background: #89c6ab;
     position: absolute;
     bottom: -4px;
    left: 20px;
